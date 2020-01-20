@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+<suite name="suite">
+<test name="openPages">
+    <parameter name="url" value="https://yandex.ru"/>
+    <parameter name="url" value="https://otus.ru"/>
+    <parameter name="url" value="https://habr.com"/>
+    <classes>
+        <class name= "Tests" />
+    </classes>
+</test>
+</suite>
